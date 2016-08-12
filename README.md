@@ -1,6 +1,6 @@
 #原生的iOS工程局部页面嵌入weex的view
 
-阿里巴巴开源的[weex][1]，貌似有着很不错的性能。最近也尝试了一下。在原生的现有的工程中，一个页面的页面的部分区域使用weex。看了原文介绍的用法，发现有些地方并没有交代清楚。看原文链接:[integrate to ios][2]
+在原生的现有的工程中，一个页面的页面的部分区域使用weex。看了原文介绍的用法，发现有些地方并没有交代清楚。看原文链接:[integrate to ios][2]
 
  1. 如果你没有iOS开发的基础。请，先安装[iOS开发环境](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppStoreDistributionTutorial/Setup/Setup.html)
     及
@@ -20,7 +20,11 @@ end
 然后执行 `pod install --verbose --no-repo-update`
 ![根目录结构](https://raw.githubusercontent.com/dengjunwen/weexPageDemo/master/weexImage/weex%E5%B7%A5%E7%A8%8B%E7%9B%AE%E5%BD%95.png)
  5 用xcode打开weexPageDemo.xcworkspace。
+
+
+----------
  ![工程结构图](https://raw.githubusercontent.com/dengjunwen/weexPageDemo/master/weexImage/weex%E5%B7%A5%E7%A8%8B%E5%86%85%E9%83%A8%E5%9B%BE.png)
+
  6 打开AppDelegate.m文件，修改内容
 ```
 #import "AppDelegate.h"
