@@ -1,0 +1,17 @@
+PODS:
+  - SocketRocket (0.5.1)
+  - WeexSDK (0.6.0):
+    - SocketRocket
+
+DEPENDENCIES:
+  - WeexSDK (from `./weex/ios/sdk/`)
+
+EXTERNAL SOURCES:
+  WeexSDK:
+    :path: ./weex/ios/sdk/
+
+SPEC CHECKSUMS:
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+  WeexSDK: 3ce441ea90c93462f1f8e7744cb0b63081744de9
+
+COCOAPODS: 0.39.0
