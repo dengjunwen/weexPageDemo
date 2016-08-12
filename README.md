@@ -19,9 +19,9 @@ end
 ```
 然后执行 `pod install --verbose --no-repo-update`
 ![根目录结构](https://raw.githubusercontent.com/dengjunwen/weexPageDemo/master/weexImage/weex%E5%B7%A5%E7%A8%8B%E7%9B%AE%E5%BD%95.png)
- 5. 用xcode打开weexPageDemo.xcworkspace。
+ 5 用xcode打开weexPageDemo.xcworkspace。
  ![工程结构图](https://raw.githubusercontent.com/dengjunwen/weexPageDemo/master/weexImage/weex%E5%B7%A5%E7%A8%8B%E5%86%85%E9%83%A8%E5%9B%BE.png)
- 6. 打开AppDelegate.m文件，修改内容
+ 6 打开AppDelegate.m文件，修改内容
 ```
 #import "AppDelegate.h"
 #import <WeexSDK/WeexSDK.h>
