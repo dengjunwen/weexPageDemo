@@ -18,12 +18,10 @@ target 'weexPageDemo' do
 end
 ```
 然后执行 `pod install --verbose --no-repo-update`
-![根目录结构](http://img.blog.csdn.net/20160812162517305)
+![根目录结构](https://raw.githubusercontent.com/dengjunwen/weexPageDemo/master/weexImage/weex%E5%B7%A5%E7%A8%8B%E7%9B%AE%E5%BD%95.png)
  5. 用xcode打开weexPageDemo.xcworkspace。
- ![工程结构图](http://img.blog.csdn.net/20160812162804926)
+ ![工程结构图](https://raw.githubusercontent.com/dengjunwen/weexPageDemo/master/weexImage/weex%E5%B7%A5%E7%A8%8B%E5%86%85%E9%83%A8%E5%9B%BE.png)
  6. 打开AppDelegate.m文件，修改内容
-
-
 ```
 #import "AppDelegate.h"
 #import <WeexSDK/WeexSDK.h>
@@ -57,8 +55,7 @@ end
 
 ```
 
- 7. 新增加一个类叫WXEventModule，看代码：
-
+ 7 新增加一个类叫WXEventModule，看代码：
 
 ```
 -------------------------.h头文件内容-------------------
@@ -96,7 +93,7 @@ WX_EXPORT_METHOD(@selector(openURL:))
 @end
 ```
 
- 8.  在ViewController中的代码
+ 8  在ViewController中的代码
 
 
 ```
@@ -162,8 +159,8 @@ WX_EXPORT_METHOD(@selector(openURL:))
 @end
 ```
 
- 9. 步骤8中用到了bundlejs/index.js，这个js是从weex/ios/playground/目录下拖拽过来的，playground目录下有一个bundlejs。playground文件夹是跟刚刚赋值的sdk文件夹同级，自己去找一下吧。拖拽到工程目录的时候选择create folder references。
-![这里写图片描述](http://img.blog.csdn.net/20160812164847086)
+ 9 步骤8中用到了bundlejs/index.js，这个js是从weex/ios/playground/目录下拖拽过来的，playground目录下有一个bundlejs。playground文件夹是跟刚刚赋值的sdk文件夹同级，自己去找一下吧。拖拽到工程目录的时候选择create folder references。
+![这里写图片描述](https://raw.githubusercontent.com/dengjunwen/weexPageDemo/master/weexImage/weexbundlejs%E5%9B%BE.png)
 
 -------------------
 最后commad+R运行。就可以了。
