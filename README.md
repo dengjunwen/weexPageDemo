@@ -19,6 +19,7 @@ end
 ```
 然后执行 `pod install --verbose --no-repo-update`
 ![根目录结构](https://raw.githubusercontent.com/dengjunwen/weexPageDemo/master/weexImage/weex%E5%B7%A5%E7%A8%8B%E7%9B%AE%E5%BD%95.png)
+
  5 用xcode打开weexPageDemo.xcworkspace。
 
 
