@@ -1,6 +1,6 @@
 #原生的iOS工程局部页面嵌入weex的view
 
-在原生的现有的工程中，一个页面的页面的部分区域使用weex。看了原文介绍的用法，发现很多地方并没有交代清楚。看原文链接:[integrate to ios][2]
+weex SDK 集成到工程。在原生的现有的工程中，一个页面的页面的部分区域使用weex。看了原文介绍的用法，发现很多地方并没有交代清楚。看原文链接:[integrate to ios][2]
 
  1. 如果你没有iOS开发的基础。请，先安装[iOS开发环境](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppStoreDistributionTutorial/Setup/Setup.html)
     及
